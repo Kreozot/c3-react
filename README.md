@@ -12,10 +12,10 @@ npm install c3-react
 ## How to use
 
 ```
-const C3Chart = require("./C3Chart.jsx");
+const C3Chart = require("c3-react");
 ```
   
-* In parnet component
+* In parent component
 ```
 <C3Chart data={data} type={type} options={options}/>
 ```
@@ -24,14 +24,14 @@ const C3Chart = require("./C3Chart.jsx");
 ```
 let data = [
   {
-    key: "dataSource1"
+    key: "dataSource1",
     values: [
       {label: "A", value: 3},
       {label: "B", value: 4}
     ]
   },
   {
-    key: "dataSource2"
+    key: "dataSource2",
     values: [
       {label: "X", value: 7},
       {label: "Y", value: 8}
